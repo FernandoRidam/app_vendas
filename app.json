@@ -1,7 +1,8 @@
 {
   "expo": {
-    "name": "app_vendas",
-    "slug": "app_vendas",
+    "name": "App Vendas",
+    "slug": "app-vendas",
+    "description": "Teste para processo seletivo da Unymos - Desenvolvedor React Native",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -20,11 +21,24 @@
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      }
+        "backgroundColor": "#ffffff",
+        "package": "com.yourcompany.yourappname"
+      },
+      "package": "com.fernandoridam.appvendas"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "58b42a0c-35e3-4d2c-a288-bb54fc61c4c4"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/58b42a0c-35e3-4d2c-a288-bb54fc61c4c4"
     }
   }
 }
